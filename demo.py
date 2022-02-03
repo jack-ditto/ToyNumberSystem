@@ -1,4 +1,4 @@
-from ToyBitNumberSystem import ToyNumberSystem
+from ToyNumberSystem import ToyNumberSystem
 
 
 # Init a Toy Number System

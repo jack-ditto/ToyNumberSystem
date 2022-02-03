@@ -101,8 +101,8 @@ class ToyNumberSystem:
 
         binary_strings = self.getbin(self.num_bits)
 
-        possible_nums = [self.convert_binary_to_decimal(
-            x) for x in binary_strings]
+        possible_nums = sorted([self.convert_binary_to_decimal(
+            x) for x in binary_strings])
 
         return possible_nums
 
